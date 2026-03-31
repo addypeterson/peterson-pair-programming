@@ -1,11 +1,11 @@
-def feetinch2meters (feet, inches):         #function definition
-    total_inches = (12*feet)+inches         #all to inches  
-    total_meters = total_inches/39.3701     #convert
-    return total_meters                     #spit out new number
+def feetinch2meters (feet, inches):         # This function looks correct and is easy to read! 
+    total_inches = (12*feet)+inches         # You convert all feet to inches then convert the total inches to meters 
+    total_meters = total_inches/39.3701     
+    return total_meters                     
 
-f = float(input("Input feet: "))
+f = float(input("Input feet: "))            # This is where the user inputs their feet and inches
 i = float(input("Input inches: "))
 
 result = feetinch2meters(f, i)
 
-print(f"Result: {result} meters")
+print(f"Result: {result} meters")           # Where you output the result in meters! Good job!
